@@ -1,0 +1,61 @@
+BasicInfoView.css
+
+.basic-info-view {
+  padding: 20px;
+}
+
+.basic-info-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.basic-info-image, .basic-info-logo {
+  max-width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.navbar-items {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-items li {
+  display: inline;
+  margin-right: 15px;
+}
+
+
+.count-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Adjust gap as needed */
+}
+
+.count-item {
+  flex: 1 1 calc(25% - 1rem); /* Adjust width to fit 4 items per row with gaps */
+  box-sizing: border-box;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.count-item h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.count-item span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.basic-info-image, .basic-info-logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

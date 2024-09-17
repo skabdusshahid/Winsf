@@ -1,0 +1,69 @@
+
+#stickyHeader {
+    background-color: #22244E; /* Background color for the header */
+    color: #fff; /* Text color */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is on top of other elements */
+    padding: 10px 0; /* Padding for the header */
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust based on your logo size */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between navigation items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a i {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  svg {
+    fill: #fff; /* SVG icon color */
+  }
+  
+  b {
+    font-weight: bold;
+    font-size: 16px; /* Adjust as needed */
+  }
+  

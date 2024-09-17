@@ -1,0 +1,39 @@
+/* src/components/ConsultingForm.css */
+
+.consulting-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .consulting-form div {
+    margin-bottom: 1rem;
+  }
+  
+  .consulting-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .consulting-form input[type="text"],
+  .consulting-form input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .consulting-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .consulting-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .consulting-form .error {
+    color: red;
+  }
+  

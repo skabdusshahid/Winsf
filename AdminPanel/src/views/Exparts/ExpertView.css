@@ -1,0 +1,32 @@
+/* ExpertView.css */
+
+.team-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-img img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.callto {
+  margin: 10px 0;
+}
+
+.follow .social-media-icon {
+  list-style: none;
+  padding: 0;
+}
+
+.follow .social-media-icon li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.follow .social-media-icon a {
+  color: #333;
+  font-size: 18px;
+}

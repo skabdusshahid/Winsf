@@ -1,0 +1,161 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .navbar-brand .brand-logo img,
+  .navbar-brand .brand-logo-mini img {
+    height: 40px;
+  }
+  
+  .navbar-menu-wrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background: none;
+    font-size: 24px;
+  }
+  
+  .search-field {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-field .input-group {
+    position: relative;
+  }
+  
+  .search-field .input-group .input-group-text {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+  }
+  
+  .search-field .form-control {
+    padding-left: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .navbar-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .nav-profile-img {
+    position: relative;
+  }
+  
+  .nav-profile-img img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .availability-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .availability-status.online {
+    background-color: #28a745;
+  }
+  
+  .dropdown-menu {
+    min-width: 200px;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .preview-item {
+    display: flex;
+    align-items: start;
+  }
+  
+  .preview-thumbnail {
+    margin-right: 10px;
+  }
+  
+  .preview-thumbnail img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .preview-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bg-success {
+    background-color: #28a745;
+  }
+  
+  .bg-warning {
+    background-color: #ffc107;
+  }
+  
+  .bg-info {
+    background-color: #17a2b8;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .nav-logout,
+  .nav-settings {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  .nav-logout:hover,
+  .nav-settings:hover {
+    background-color: #f8f9fa;
+  }
+  

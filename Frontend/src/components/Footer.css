@@ -1,0 +1,107 @@
+
+
+  /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  } */
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  
+  .col-lg-4, .col-md-6 {
+    padding: 15px;
+    flex: 1;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust based on your logo size */
+  }
+  
+  .links {
+    margin-top: 20px;
+  }
+  
+  .links h5 {
+    margin-bottom: 10px;
+    font-size: 25px; /* Adjust as needed */
+  }
+  
+  .links .line {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .links p, .links span {
+    font-size: 18px; /* Adjust text size */
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-bottom h3 {
+    font-size: 22px; /* Adjust as needed */
+  }
+  
+  .footer-bottom p {
+    font-size: 16px;
+  }
+  
+  .footer-bottom .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .footer-bottom .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-end {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-shapes {
+    /* Add any shapes or design elements here */
+  }
+  
+  /* Progress Button */
+  #progress {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #progress-value {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  #progress-value i {
+    margin: 0;
+  }
+  

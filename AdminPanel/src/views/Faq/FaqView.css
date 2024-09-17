@@ -1,0 +1,30 @@
+.faq-view-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  table.faq-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.faq-table th,
+  table.faq-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table.faq-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
